@@ -167,7 +167,7 @@ class Tasks:
                 pass
 # Test code.                
 if __name__ == "__main__":
-    newTask = Task("Test Task", datetime.date(2012,05,31))
+    newTask = Task("Test Task", datetime.date(2015,09,01))
     testSession = Tasks()
     testSession.add_task(newTask)
     testSession.notify() 
